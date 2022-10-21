@@ -1,0 +1,72 @@
+<div class="login-page d-flex align-items-center bg-gray-100">
+    <div class="container mb-3">
+      <div class="row">
+        <div class="col-md-6 mx-auto">
+          <div class="card">
+            <div class="card-body p-5">
+              <img src="img/form.jpg" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 mx-auto">
+          <div class="card">
+            <div class="card-body p-5">
+              <header class="text-center mb-5">
+                <h1 class="text-xxl text-gray-400 text-uppercase" style="color:white;">A<strong class="text-primary">Z</strong>T</h1>
+              </header>
+              <form class="register-form" method="get" action="login.html">
+                <div class="row">
+                  <div class="col-lg-8 mx-auto">
+                      <div class="input-material-group mb-3">
+                          <input class="input-material" type="file" name="registerimage" required data-validate-field="registerimage">
+                          <label class="label-material" for="register-image">Profil                 </label>
+                        </div>
+                    <div class="input-material-group mb-3">
+                      <input class="input-material" type="text" name="registername" required data-validate-field="registername">
+                      <label class="label-material" for="register-username">NOM                </label>
+                    </div>
+                    <div class="input-material-group mb-3">
+                      <input class="input-material" type="text" name="registerLastName" required data-validate-field="registerLastName">
+                      <label class="label-material" for="register-lastName">Prénom*                </label>
+                    </div>
+                    <div class="input-material-group mb-3">
+                      <input class="input-material" type="date" name="registerDateNais" required data-validate-field="registerDateNais">
+                      <label class="label-material" for="register-dateNais">Date de Naissance                </label>
+                    </div>
+                    <div class="input-material-group mb-3">
+                      <input class="input-material" type="text" name="registerLieuNais" required data-validate-field="registerLieuNais">
+                      <label class="label-material" for="register-lieuNais">Lieu de Naissance                </label>
+                    </div>
+                    <div class="input-material-group mb-3">
+                      <div class="label-material" for="register-username">Classe        </label>
+                      <select name="class" id="class" class="input-material">
+                          <option value="">Select</option>
+                          <option value="cp1">CP1</option>
+                          <option value="cp2">CP2</option>
+                          <option value="ce1">CE1</option>
+                          <option value="ce2">CE2</option>
+                          <option value="cm1">CM1</option>
+                          <option value="cm2">CM2</option>
+                          <option value="six">6<sup>ème</sup></option>
+                          <option value="five">5<sup>ème</sup></option>
+                          <option value="four">4<sup>ème</sup></option>
+                          <option value="three">3<sup>ème</sup></option>
+                          <option value="">2<sup>nd</sup>A4</option>
+                          <option value="">2<sup>nd</sup>S</option>
+                          <option value="">1<sup>ère</sup>A4</option>
+                          <option value="">1<sup>ère</sup>D</option>
+                          <option value="">Tle<sup>A4</sup></option>
+                          <option value="">Tle<sup>D</sup></option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="col-12 text-center">
+                    <button class="btn btn-primary mb-3" id="login" type="submit">Register</button><br><span class="text-xs text-gray-500">Already have an account?  </span><a class="text-xs text-paleBlue ms-1" href="login.html">Login</a>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
